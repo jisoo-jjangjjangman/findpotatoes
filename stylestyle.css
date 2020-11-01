@@ -1,0 +1,70 @@
+.container {
+  width: 500px;
+  align-content: center;
+}
+
+
+.grid {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #706245;
+  margin-left: 50px;
+  margin-top: 20px;
+  border: 10px solid #6b5e42;
+  margin-bottom: 10px;
+}
+
+div {
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+
+}
+.valid {
+  height: 40px;
+  width: 40px;
+  border: 2px solid;
+  border-color: #7e6d4c #574c36 #574c36 #7e6d4c;
+  box-sizing: border-box;
+}
+
+.checked {
+  height: 40px;
+  width: 40px;
+  border: 2px solid;
+  background-color: #534430;
+  border-color: #463f2a;
+  box-sizing: border-box;
+}
+
+.bomb {
+  height: 40px;
+  width: 40px;
+  border: 2px solid;
+  border-color: #7e6d4c #574c36 #574c36 #7e6d4c;
+  box-sizing: border-box;
+}
+
+.one {
+  color: #d8f8ba;
+}
+
+.two {
+  color: #abe971;
+}
+
+.three {
+  color: #377a38;
+}
+
+.four{
+  color: #1b641c;
+}
+
+#result {
+  margin-top: 5px;
+  color: #f74119;
+}
+
